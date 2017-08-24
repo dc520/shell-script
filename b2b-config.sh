@@ -247,5 +247,5 @@ fi
 
 if [ $env != QA -a $env != UAT -a $env != PRE -a $env != PRO ];then
 echo "输入环境名称有误，请按照备注提示重新输入！"
-echo "警告，B2B配置文件jenkins项目有人随意输入错误参数！"  |mail -s "B2B配置文件项目告警" yuhuanghui@alaxiaoyou.com
+echo "警告，B2B配置文件jenkins项目有人随意输入错误参数！"  |mail -s "B2B配置文件项目告警" 359594776@qq.com
 fi
